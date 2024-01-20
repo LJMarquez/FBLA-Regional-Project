@@ -189,6 +189,7 @@ function logIn() {
             // document.location.href = "index.html";
             history.back();
             location.reload();
+            document.body.style.backgroundColor = "red";
             localStorage.setItem("currentUser", JSON.stringify(filteredUser));
 
         //check to make sure the inputs are filled out

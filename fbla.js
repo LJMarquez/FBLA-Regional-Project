@@ -188,7 +188,9 @@ function logIn() {
             // window.open("index.html");
             // document.location.href = "index.html";
             history.back();
-            // location.reload();
+            window.addEventListener("DOMContentLoaded", () => {
+                location.reload();
+            })
             localStorage.setItem("currentUser", JSON.stringify(filteredUser));
 
         //check to make sure the inputs are filled out

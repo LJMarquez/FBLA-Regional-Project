@@ -12,7 +12,8 @@
     }
     
     body {
-        background-color: #070436;
+        /* background-color: #070436; */
+        background-color: red;
         color: white;
         font-family: 'Ubuntu', sans-serif;
     }
